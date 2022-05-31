@@ -1,0 +1,193 @@
+/* CSS reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* global */
+.flex-r{
+    display: flex;
+    flex-flow: wrap row;
+}
+
+.flex-c{
+    display: flex;
+    flex-flow: wrap column;
+}
+
+.a-items-c{
+    align-items: center;
+}
+
+.j-content-sb{
+    justify-content: space-between;
+}
+
+.j-content-ct{
+    justify-content: center;
+}
+
+.j-content-en{
+    justify-content: flex-end;
+}
+
+.flex-d-rr{
+    flex-direction: row-reverse;
+}
+
+.gap-15{
+    gap: 15px;
+}
+
+.grow-1{
+    flex-grow: 1;
+}
+
+.boxed{
+    max-width: 1100px;
+    margin: auto;
+}
+
+.tr{
+    text-align: right;
+}
+
+.tc{
+    text-align: center;
+}
+
+.bg-gray{
+    background-color: rgb(211, 211, 211);
+}
+
+.bg-white{
+    background-color: rgb(255, 255, 255);
+}
+
+/* header */
+header{
+    padding: 10px 0px;
+}
+
+nav .cl{
+    padding: 10px 5px;
+    min-width: 15%;
+}
+
+nav li{
+    list-style: none;
+}
+
+/* sections */
+#section01{
+    padding: 40px 25%;
+}
+
+#section01 .content{
+    min-height: 350px;
+}
+
+#section05 .content{
+    min-height: 750px;
+}
+
+.section-style{
+    padding: 40px 0px;
+}
+
+.section-style .right, .section-style .left{
+    min-height: 400px;
+    padding: 20px 20px;
+}
+
+.section-style .right{
+    width: 40%;
+}
+
+.section-style .left{
+    width: 60%;
+}
+
+/* footer */
+footer{
+    background-color: rgb(37, 39, 42);
+    padding: 15px 0px;
+}
+
+footer .first .cl{
+    min-height: 400px;
+}
+
+footer .first .cl{
+    min-width: calc(100% / 6);
+}
+
+footer .second{
+    padding: 10px 0px;
+}
+
+footer .second .cl{
+    padding: 5px;
+}
+
+footer hr{
+    margin: 15px 0px;
+}
+
+
+
+
+/* debug classes */
+.debug header{
+    background-color: rgb(183, 215, 228);
+}
+
+.debug nav{
+    background-color: rgb(210, 167, 65);
+}
+
+.debug .cl{
+    border: 1px dashed #000;
+}
+
+.debug #section01{
+    background-color: rgb(0, 0, 133);
+}
+
+.debug #section01 .content{
+    background-color: rgb(224, 135, 232);
+}
+
+.debug #section05 .content{
+    background-color: rgb(69, 137, 51);
+}
+
+.debug .section-style .left{
+    background-color: rgb(69, 142, 247);
+}
+
+.debug .section-style .right{
+    background-color: rgb(245, 194, 203);
+}
+
+.debug footer{
+    background-color: rgb(37, 39, 42);
+}
+
+.debug footer .ws{
+    background-color: rgb(85, 175, 169);
+    border-color: #fff;
+}
+
+.debug footer .wb{
+    background-color: rgb(225, 134, 131);
+}
+
+.debug footer .second{
+    background-color: rgb(160, 252, 214);
+}
+
+.debug footer .second .cl{
+    background-color: rgb(225, 134, 131);
+}
