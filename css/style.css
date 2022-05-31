@@ -164,17 +164,20 @@ nav .menu-item a{
     color: rgb(36, 36, 36);
 }
 
-.wave{
-    min-height: 60px;
-    background-image: url(../media/wave.svg);
-    background-size: cover;
-    background-repeat: no-repeat;
+
+#section03{
+    margin-top: -5px;
+    margin-bottom: -5px;
 }
+
+#section05{
+    margin-top: -5px;
+}
+
 
 .rotate{
     transform: rotate(180deg);
 }
-
 
 
 #section05 .content{
