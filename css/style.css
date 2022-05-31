@@ -144,16 +144,12 @@ nav .menu-item a{
     margin-bottom: 4%;
 }
 
-#section02 img{
-    max-width: 100%;
+#section02 .right{
+    padding: 0% 6%;
 }
 
 #section02 .right{
-    padding: 0% 4%;
-}
-
-#section02 .right{
-    padding-top: 4%;
+    padding-top: 5%;
 }
 
 #section02 .right h2{
