@@ -202,6 +202,7 @@ nav .menu-item a{
 
 #section05 .content{
     min-height: 750px;
+    padding-bottom: 4% ;
 }
 
 #section05 h2{
@@ -227,11 +228,12 @@ nav .menu-item a{
 /* footer */
 footer{
     background-color: rgb(37, 39, 42);
-    padding: 15px 0px;
+    padding-top: 4%;
+    padding-bottom: 0.8%;
 }
 
 footer .first .cl{
-    min-height: 400px;
+    min-height: 350px;
 }
 
 footer .first .cl{
@@ -250,7 +252,54 @@ footer hr{
     margin: 15px 0px;
 }
 
+footer h3{
+    color: rgb(118, 136, 212);
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 5%;
+}
 
+footer .language-switcher{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 5%;
+}
+
+footer .language-switcher img{
+    width: 15px;
+    vertical-align: middle;
+    margin-right: 1%;
+
+}
+
+footer .language-switcher .ri-arrow-drop-down-line{
+    vertical-align: middle;
+}
+
+footer .social{
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+footer nav h4{
+    color: rgb(118, 136, 212);
+    font-size: 1.2em;
+    font-weight: 500;
+    margin-bottom: 7%;
+}
+
+
+footer nav ul li{
+    margin-bottom: 5%;
+}
+
+footer nav a{
+    color: #fff;
+    font-size: 1em;
+    text-decoration: none;
+}
 
 
 /* debug classes */
